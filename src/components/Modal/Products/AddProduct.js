@@ -18,6 +18,16 @@ function AddProduct(props){
                            <form action="#">
                                 <div class="grid grid-cols-6 gap-6">
                                     <div class="col-span-6 sm:col-span-3">
+                                        <label for="product-name" class="text-sm font-medium text-gray-900 block mb-2">Image du produit</label>
+                                        <input type="file" name="product-name" id="product-name" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5" placeholder="Mac Book Pro Hair 5”" required=""/>
+                                    </div>
+
+                                    <div class="col-span-6 sm:col-span-3">
+                                        <label for="product-name" class="text-sm font-medium text-gray-900 block mb-2">images Suplémentaires</label>
+                                        <input type="file" id="files" name="files" multiple="multiple"  id="product-name" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5" placeholder="Mac Book Pro Hair 5”" required=""/>
+                                    </div>
+
+                                    <div class="col-span-6 sm:col-span-3">
                                         <label for="product-name" class="text-sm font-medium text-gray-900 block mb-2">Titre  du produit</label>
                                         <input type="text" name="product-name" id="product-name" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5" placeholder="Mac Book Pro Hair 5”" required=""/>
                                     </div>
